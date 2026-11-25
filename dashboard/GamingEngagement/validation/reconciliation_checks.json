@@ -1,0 +1,24 @@
+{
+  "result": "passed",
+  "checks": [
+    "Q01: all class counts, totals, and shares match",
+    "Q02: all demographic counts and rates match",
+    "Q03: all demographic counts and rates match",
+    "Q04: all demographic counts and rates match",
+    "Q05: all activity averages match",
+    "Q06: purchaser counts and rates match",
+    "Q07: all 23 genre/difficulty groups match",
+    "Q08: all 309 high-value audience IDs match",
+    "Q09: all 10,324 retention IDs, priorities, and safeguarding flags match",
+    "Q10: all seven frequent-session/elevated-Low demographic groups match",
+    "Q11: all 15 Low-only gameplay groups match",
+    "Layout: one page, all 23 visuals within bounds, no overlaps",
+    "Bindings: every visual field resolves to a model column or authored measure",
+    "Data-level filter invariants hold across every slicer category; DAX engine not executed"
+  ],
+  "limitations": [
+    "Power BI Desktop unavailable on Linux; report was not opened or screenshot-tested in Desktop.",
+    "DAX syntax and M import definitions authored but not executed by the Power BI engine.",
+    "PNG is a design preview drawn from the same data and layout, not a native Power BI screenshot."
+  ]
+}
